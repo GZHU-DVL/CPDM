@@ -1,0 +1,1 @@
+python scripts/image_sample_underwater.py --num_samples 400 --image_size 64 --num_channels 128 --num_res_blocks 3 --noise_schedule cosine --use_kl False --batch_size 4 --diffusion_steps 1000 --data_dir ./data/LSUI/test/input --data_gt_dir ./data/LSUI/test/GT --model_path ./output/ema_0.9999_xxxxxxx.pt
